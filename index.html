@@ -5,44 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christmas Dinner Menu</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Playfair Display', serif;
             text-align: center;
             margin: 0;
             padding: 20px;
             background-color: #fafafa;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.8;
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             color: #2a2a2a;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 1.5px;
         }
         h2 {
-            font-size: 1.8rem;
+            font-size: 2rem;
             color: #444;
-            margin: 20px 0 10px;
+            margin: 30px 0 15px;
             text-transform: uppercase;
             border-bottom: 1px solid #ddd;
             display: inline-block;
             padding-bottom: 5px;
         }
         p {
-            font-size: 1.1rem;
-            margin: 5px 0;
+            font-size: 1.3rem;
+            margin: 10px 0;
             color: #555;
         }
         .description {
-            font-size: 0.9rem;
+            font-size: 1.1rem;
             font-style: italic;
             color: #777;
         }
         footer {
-            margin-top: 30px;
-            font-size: 1rem;
+            margin-top: 40px;
+            font-size: 1.3rem;
             color: #666;
         }
         footer em {
@@ -52,14 +54,22 @@
         footer::before {
             content: "⋆ ⋆ ⋆";
             display: block;
-            margin-bottom: 10px;
-            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
             color: #888;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <h1>Christmas Dinner</h1>
+    <p class="description">Hosted by Kawai and Chris</p>
     <p><strong>December 25th, 2024</strong></p>
 
     <h2>Main Course</h2>
@@ -79,6 +89,13 @@
     <h2>Dessert</h2>
     <p>Affogato</p>
     <p class="description">Vanilla Ice Cream with Hot Espresso</p>
+
+    <h2>Wine & Drink List</h2>
+    <p><a href="https://primapave.com/products/blanc-de-blancs" target="_blank">Prima Pavé Blanc de Blancs (Non-Alcoholic)</a></p>
+    <p><a href="https://www.saichodrinks.com/products/hojicha-750ml?variant=39710441603135" target="_blank">Saicho Hojicha Sparkling Tea (Non-Alcoholic)</a></p>
+    <p>Sparkling Water</p>
+    <p>Diet Coke</p>
+    <p>Coffee and Tea for Dessert</p>
 
     <footer>
         <em>Wishing you a joyful Christmas celebration</em>
